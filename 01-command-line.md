@@ -331,14 +331,14 @@ Display your command line history:
 ```
 history
 ```
-You can set the number of lines you want to keep by using ```TODO```
+You can set the number of lines you want to keep by using ```export HISTSIZE=2000```
 ###Ctrl-r
 Allows you to search back through your history:  
 ```
 ctrl-r searchterm
 ```  
-**Instructions**
 Use ```ctrl-r``` to find the ```sed``` command that you used.  
+**Instructions**  
 You can hit ```ctrl-r``` again to cycle back through your history.
 ###chmod
 Allow user, group and others to read, write and execute:  
@@ -354,7 +354,7 @@ Get the manual page for a command:
 ```
 man command
 ```  
-**Instructions**
+**Instructions**  
 Use ```man``` to look up the manpage for the ```ls``` command. 
 
 ###Resources
