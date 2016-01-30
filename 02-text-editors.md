@@ -6,7 +6,7 @@ However you should also be somewhat familiar with the others, and know enough to
 Text editors may seem simple, but they are quite powerful underneath.
 Unlike their GUI counterparts they can be used directly from the command line.
 
-**Instructions**
+**Instructions**  
 To follow along copy and paste ```wget https://github.com/andrewquitadamo/bioinformatics-skills/archive/master.zip && unzip master.zip && cd bioinformatics-skills-master/data/02-text-editors/``` into your terminal.
 
 #Nano
@@ -18,7 +18,7 @@ The filename will be at the top, and a small list of commands will be at the bot
 
 The `^` character stands for the `Ctrl` key.
 
-**Instructions**
+**Instructions**  
 To start using Nano open up the command line and type:  
 ```
 nano filename.txt
@@ -46,7 +46,7 @@ To start editing the file, just type.
 
 In the upper right corner, Nano will now indicate the file has been modified.
 
-**Instructions**
+**Instructions**  
 Add some new text to `filename.txt`
 
 ##Saving
@@ -57,7 +57,7 @@ This will bring up a dialog with the filename.
 
 To save the file, hit enter.
 
-**Instructions**
+**Instructions**  
 Save your modifications to `filename.txt`
 
 ##Copying, Cutting, and Pasting
@@ -70,7 +70,7 @@ To copy a line of text, use `Meta-^`, where `Meta` is the `Esc` key.
 
 To highlight a portion of text for copying or cutting, use `Ctrl-^`.
 
-**Instructions**
+**Instructions**  
 Cut a line of text, and then paste it below the next line.
 Highlight the first half of a line, and paste it below the current line.
 
@@ -80,7 +80,7 @@ To search for text, use `Ctrl-W`
 
 To search and replace, use `Ctrl-\`
 
-**Instructions**
+**Instructions**  
 Search for searchterm in filename.txt
 Search and replace searchterm with replaceterm
 
@@ -88,7 +88,7 @@ Search and replace searchterm with replaceterm
 
 Use `Ctrl-G` to view the help screen.
 
-**Instructions**
+**Instructions**  
 Take a look at the other commands you can use in Nano.
 
 ##Quitting
@@ -97,7 +97,7 @@ To exit use `Ctrl-X`.
 
 Nano will ask you if you want to save your file, if you have unsaved changes.
 
-**Instructions**
+**Instructions**  
 Exit out of Nano
 
 #Emacs
@@ -109,7 +109,7 @@ Some operating systems come with Emacs, others do not.
 `C` stands for `Ctrl`
 `M` stands for `Meta`, which is usually `Alt`
 
-**Instructions**
+**Instructions**  
 To start using Emacs, type `emacs filename.txt`
 
 ##Moving Around
@@ -132,14 +132,14 @@ To move to the beginning of the line, use `C-a`
 
 Just like Nano, all you have to do is start typing.
 
-**Instructions**
+**Instructions**  
 Add some new text to `filename.txt`
 
 ##Saving
 
 To save your changes, use `C-x C-s`
 
-**Instructions**
+**Instructions**  
 Save your changes to `filename.txt`
 
 ##Copying, Cutting, and Pasting
@@ -154,7 +154,7 @@ To cut a portion of text use `C-w`
 
 To copy a protion of highlighted text use `M-w`
 
-**Instructions**
+**Instructions**  
 Practice cutting and pasting lines.
 Practice highlighting sections and copying them.
 
@@ -174,7 +174,7 @@ You can hit `C-s` or `C-r` multiple times to cycle through the results.
 
 Use `C-h C-h` to open up the helps screen
 
-**Instructions**
+**Instructions**  
 Open up the help menu, and take a look around.
 
 ##Quitting
@@ -187,7 +187,7 @@ Vim is a powerful text editor.
 Vim comes installed on pretty much everything. 
 If you have a smart toaster, it probably has Vim on it.
 
-**Instructions**
+**Instructions**  
 To start using Vim type `vim filename.txt`
 
 ##Moving Around
@@ -207,7 +207,7 @@ To move to the next word, use `w`
 
 To move back a word, use `b`
 
-**Instructions**
+**Instructions**  
 Move around the file using the commands. Try to not use the arrow keys. 
 
 ##Editing
@@ -218,14 +218,14 @@ In the interactive mode you can't use your commands for moving around.
 
 To exit interactive mode, hit the `Esc` key. This will bring you to the command mode.
 
-**Instructions**
+**Instructions**  
 Enter interactive mode and edit some text.
 
 ##Saving
 
 To save enter command mode (`Esc`) and type `:w`.
 
-**Instructions**
+**Instructions**  
 Save your changes
 
 ##Copying, Cutting, and Pasting
@@ -244,7 +244,7 @@ You can repeat a command N times by using `Ncommand`.
 
 For example to move up 10 lines you could use `10k`, or to delete 15 lines you could use `15dd`.
 
-**Instructions**
+**Instructions**  
 Try to copy 5 lines of text and paste them above the current lines.
 
 ##Undoing Changes
@@ -258,14 +258,14 @@ Vim will find the search term.
 
 Hit `n` to go to the next result or `N` to go to the previous result.
 
-**Instructions** 
+**Instructions**  
 Search for "searchterm" and cycle through the results.
 
 ##Getting Help
 
 Use `:h` or `:help` to open up the help screen. 
 
-**Instructions**
+**Instructions**  
 Open up the help screen and see what is available.
 
 ##Quitting
@@ -276,15 +276,14 @@ To save and quit use `:wq`
 
 ##Resources
 I highly recommend you choose either Vim or Emacs and learn how to use it well. 
-They are very useful and have many tricks to help make you very productive.
+They are very useful and have many tricks to help make you very productive.  
 
-* [Vim Tutorial and Introduction](http://danielmiessler.com/study/vim/)
-* [Learn to Speak Vim](http://yanpritzker.com/2011/12/16/learn-to-speak-vim-verbs-nouns-and-modifiers/)
-* [Series of Articles on Learning Vim](http://benmccormick.org/tag/learning-vim-in-2014/)
-* [Intermediate Vim Tips](http://ideasintosoftware.com/vim-productivity-tips/)
-* [How to Boost Your Vim Productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)
-* [Everything You Need To Know About Vim](https://github.com/mhinz/vim-galore)
-
-* [Absolute Beginners Guide to Emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
-* [Emacs Tutor](http://tuhdo.github.io/emacs-tutor.html)
-* [Emacs Tour](http://www.gnu.org/software/emacs/tour/)
+* [Vim Tutorial and Introduction](http://danielmiessler.com/study/vim/)  
+* [Learn to Speak Vim](http://yanpritzker.com/2011/12/16/learn-to-speak-vim-verbs-nouns-and-modifiers/)  
+* [Series of Articles on Learning Vim](http://benmccormick.org/tag/learning-vim-in-2014/)  
+* [Intermediate Vim Tips](http://ideasintosoftware.com/vim-productivity-tips/)  
+* [How to Boost Your Vim Productivity](http://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/)  
+* [Everything You Need To Know About Vim](https://github.com/mhinz/vim-galore)  
+* [Absolute Beginners Guide to Emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)  
+* [Emacs Tutor](http://tuhdo.github.io/emacs-tutor.html)  
+* [Emacs Tour](http://www.gnu.org/software/emacs/tour/)  
