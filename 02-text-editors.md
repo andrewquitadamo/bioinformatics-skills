@@ -7,7 +7,7 @@ Text editors may seem simple, but they are quite powerful underneath.
 Unlike their GUI counterparts they can be used directly from the command line.
 
 **Instructions**  
-To follow along copy and paste ```wget https://github.com/andrewquitadamo/bioinformatics-skills/archive/master.zip && unzip master.zip && cd bioinformatics-skills-master/data/02-text-editors/``` into your terminal.
+To follow along copy and paste `curl https://raw.githubusercontent.com/andrewquitadamo/bioinformatics-skills/master/data/02-text-editors/tale-of-two-cities.txt -O` into your terminal.
 
 #Nano
 
