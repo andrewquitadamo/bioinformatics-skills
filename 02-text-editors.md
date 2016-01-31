@@ -170,6 +170,9 @@ To search, use `C-s`. This is the forward search.
 
 You can hit `C-s` or `C-r` multiple times to cycle through the results.
 
+**Instructions**  
+Search for `searchterm`. 
+
 ##Getting Help
 
 Use `C-h C-h` to open up the helps screen
@@ -180,6 +183,9 @@ Open up the help menu, and take a look around.
 ##Quitting
 
 To quit, use `C-x C-c`. Emacs will ask you if you want to save any unsaved changes.
+
+**Instructions**
+Exit out of Emacs
 
 #Vim
 
@@ -273,6 +279,9 @@ Open up the help screen and see what is available.
 Use `:q` to quit. Vim won't quit if you have unsaved changes. Use `:q!` to force quitting without saving.
 
 To save and quit use `:wq`
+
+**Instructions**
+Exit out of Vim
 
 ##Resources
 I highly recommend you choose either Vim or Emacs and learn how to use it well. 
