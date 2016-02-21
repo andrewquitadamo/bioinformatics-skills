@@ -41,4 +41,56 @@ Try converting `3` to a float, and try converting `3` to a string
 
 #Variables
 
+Variables allow you to store values.  
+Variables also have types, ranging from the simple (Ints, Floats, and Strings) to the more complex (Lists and Dictionaries).
 
+You assign a value to a variable by using the equals sign. 
+`age = 25`
+
+We can now use this variable in expressions.
+`age - 10`
+
+We can also update the variable
+`age += 1`
+
+The `+=` syntax is equivalent to `age = age + 1`
+
+**Instructions**  
+Create a few variables of your own. They don't have to be numbers.  
+Try creating a variable to store your first name.  
+
+#Functions
+
+Functions are reusable bits of code. Python already has built-in functions, and we can write our own.
+
+Two examples of built-in Python functions are abs() and max().  
+`abs(-14)`  
+`max([1,2,4])`
+
+The syntax to call a function is the function name, followed by paranthases, and then the values we want to pass to the function.
+Python then evaluates the function with the given inputs, and returns a value.
+
+We can write our own functions too. The general syntax is 
+```
+def function_name(inputs):
+	things_to_do
+	return result
+```
+
+So if we wanted to create a function that squared numbers it would look like:
+```
+def square(x):
+	return x**2
+```
+
+Or if we wanted to create a function that takes a persons name, and returns a greeting we could create a function like:
+```
+def say_hello(name):
+	greeting = "Hello " + name
+	return greeting
+```
+
+**Instruction**
+Modify the example functions in some way.  
+You could change the square function to take two inputs, a base and a power, and return the result of bash^power.
+You could change the greeting function so that it takes a first and last name.
