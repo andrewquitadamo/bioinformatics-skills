@@ -59,6 +59,39 @@ The `+=` syntax is equivalent to `age = age + 1`
 Create a few variables of your own. They don't have to be numbers.  
 Try creating a variable to store your first name.  
 
+#Strings
+
+Strings are used to store text. They have a few special methods associated with them.
+
+`name = Andrew`
+
+We can use the len() function to find the length of a string.
+`len(name)`
+
+We can combine strings using the `+`. This is called concatenation.
+`name + ' Q.'`
+
+We can use string methods, like .lower(), upper(),split() on strings.
+`name.lower()`
+
+`header="gene\tchr\tpos"`
+`header.split("\t")`
+
+#Lists
+
+Lists are another data type that you will use a lot. They store values in an ordered data structure.
+
+`a = [0,1,3]`
+`b = ['Loxodonta africana','Rattus norvegicus']`
+
+We can access any element in a list by using subsetting. Remember Python starts counting at 0.
+`b[0]`
+
+Just like strings, lists have special methods too. These include .index(), .append(), and .pop()
+
+`b.append('Macropus eugenii')`
+`b`
+
 #Functions
 
 Functions are reusable bits of code. Python already has built-in functions, and we can write our own.
@@ -94,3 +127,50 @@ def say_hello(name):
 Modify the example functions in some way.  
 You could change the square function to take two inputs, a base and a power, and return the result of bash^power.
 You could change the greeting function so that it takes a first and last name.
+
+#For Loops
+
+For loops can be used to iterate overlists, or to do things multiple times.
+Example:
+```
+numbers=[0,1,2,3,4,5]
+for number in numbers:
+	print number*2
+```
+
+The `for...in...` syntax is very useful in iterating over lists.
+
+You can also nest for loops
+```
+numbers=[0,1,2,3,4,5]
+for number in numbers:
+	for number2 in numbers:
+		print number*number2
+```
+
+#Conditionals (if, elif, else)
+
+Statements like these return a boolean (True or False)
+`0>5`
+`"name"=="name"`
+
+We can use conditionals to perform actions based on the statements value.
+```
+if 0>5:
+	print "Not good"
+else:
+	print "Everything is alright"
+```
+
+if checks for truth, else catches anything that is false.
+elif can be used to check for truth again. It is short for else-if.
+
+```
+species='Loxodonta africana'
+if species == 'Homo sapiens':
+	print "Human"
+elif species == 'Loxodonta africana':
+	print "African elephant"
+else:
+	print "Unknown"
+```
