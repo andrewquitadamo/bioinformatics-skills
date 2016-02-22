@@ -86,17 +86,17 @@ Try converting `3` to a float, and try converting `3` to a string
 
 --
 
-* You assign a value to a variable by using the equals sign. 
+* You assign a value to a variable by using the equals sign.  
 `age = 25`
 
 --
 
-* We can now use this variable in expressions.
+* We can now use this variable in expressions.  
 `age - 10`
 
 --
 
-* We can also update the variable
+* We can also update the variable  
 `age += 1`
 
 --

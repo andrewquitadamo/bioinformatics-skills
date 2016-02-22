@@ -46,13 +46,13 @@ Variables allow you to store values.
 
 Variables also have types, ranging from the simple (Ints, Floats, and Strings) to the more complex (Lists and Dictionaries).
 
-You assign a value to a variable by using the equals sign. 
+You assign a value to a variable by using the equals sign.  
 `age = 25`
 
-We can now use this variable in expressions.
+We can now use this variable in expressions.  
 `age - 10`
 
-We can also update the variable
+We can also update the variable  
 `age += 1`
 
 The `+=` syntax is equivalent to `age = age + 1`
